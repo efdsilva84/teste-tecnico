@@ -1,0 +1,7 @@
+{
+  "name": "test-tec",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
