@@ -1,20 +1,102 @@
-<ion-header [translucent]="true">
+<ion-header class="ion-no-border">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-buttons slot="start" color="light">
+      <ion-button>
+        <ion-icon slot="icon-only" color="light" name="menu"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title color="light" class="ion-text-center">icone</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon
+          class="ic"
+          style="padding: 4px"
+          size="small"
+          slot="icon-only"
+          name="notifications"
+        ></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="main-header">
+    <div class="main-header-infos">
+      <div class="avatar">
+        <ion-avatar>
+          <img
+            alt="Silhouette of a person's head"
+            src="../../assets/img/ed.jpg"
+          />
+        </ion-avatar>
+      </div>
+      <div class="dados">
+        <h3>Ed Carlos Furtado</h3>
+        <label class="nivel" for="">Nível Roxo</label>
+      </div>
+    </div>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <div class="main-header-btns ion-margin-top">
+      <ion-button
+        color="transparent"
+        class="ion-no-padding ion-no-border"
+        lines="none"
+      >
+        <ion-icon         class="ion-no-padding ion-no-border"
+        name="add-circle"></ion-icon>
+
+        <ion-label>MEU CORPO</ion-label>
+      </ion-button>
+
+      <ion-button color="transparent">
+        <ion-icon name="add-circle"></ion-icon>
+        <ion-label>OBJETIVOS E CONQUISTAS</ion-label>
+      </ion-button>
+    </div>
+  </div>
+  <h1 color="light">
+    PERSONAL ONLINE<ion-icon
+      style="color: #b6610a;line-height: 5px;"
+      name="add-circle"
+    ></ion-icon>
+  </h1>
+
+  <div class="main">
+    <div class="background">
+      <h2>
+        <ion-icon color="" size="large" name="add-circle-outline"></ion-icon>
+      </h2>
+      <p>NOVO TREINO</p>
+    </div>
+
+    <div class="background">
+      <h2>
+        <ion-icon color="" size="large" name="add-circle-outline"></ion-icon>
+      </h2>
+      <p>NOVO TREINO</p>
+    </div>
+
+    <div class="background">
+      <h2>
+        <ion-icon color="" size="large" name="add-circle-outline"></ion-icon>
+      </h2>
+      <p>NOVO TREINO</p>
+    </div>
+  </div>
+
+  <h1 color="light">PROGAMAS<label class="new">novo</label></h1>
+
+  <div class="main">
+    <div class="main-card2">
+      <label>LEVANTAMENTO DE PESO</label>
+    </div>
+    <div class="main-card2">
+      <label>LEVANTAMENTO DE PESO</label>
+    </div>
+    <div class="main-card2">
+      <label>LEVANTAMENTO DE PESO</label>
+    </div>
+
+
   </div>
 </ion-content>
